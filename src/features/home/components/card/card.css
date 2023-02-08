@@ -66,8 +66,6 @@
   display: flex;
   align-items: center;
   transition: all 0.3s;
-  right: 100vw;
-  left: -100vw;
 }
 .comunications.on {
   right: 0;
