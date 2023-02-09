@@ -1,6 +1,5 @@
 import { Card } from "../card/card";
 import { MOCK_CARDS } from "../card/mocks/cards";
-import { CardStructure } from "../card/model/card";
 
 export function Cards() {
   return (
