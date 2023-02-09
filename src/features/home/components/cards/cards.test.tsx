@@ -19,7 +19,7 @@ describe("given Cards component", () => {
     };
 
     test("Then it should render the mock card", () => {
-      const { getByTestId } = render(<Card character={mockCard} />);
+      render(<Card character={mockCard} />);
       expect(screen.getByTestId("mock-card").textContent).toBe("mock card");
     });
   });
