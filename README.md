@@ -11,4 +11,19 @@ Testea todos los elementos
 
 ## Problems
 
-- need a clarification on the "key={}" atribute.
+1- need a clarification on the "key={}" attribute.
+
+2- error from the browser:
+
+Warning: validateDOMNesting(...): <li> cannot appear as a descendant of <li>.
+at li
+at div
+at Card (http://localhost:3000/static/js/bundle.js:97:5)
+at li
+at ul
+at div
+at Cards
+at section
+at HomePage
+at div
+at App
